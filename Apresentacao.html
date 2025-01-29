@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/black.min.css">
+    <style>
+        .slides section { text-align: left; padding: 15px; font-size: 0.65em; }
+        .slides h1 { font-size: 1.8em; }
+        .slides h2 { font-size: 1.4em; }
+        .slides ul { font-size: 0.9em; }
+        .highlight { color: #FFD700; }
+        .credentials { font-size: 0.7em; }
+        .university-logos, .company-logos { display: flex; justify-content: space-around; margin-top: 15px; }
+        .university-logos img, .company-logos img { max-width: 120px; height: auto; }
+        .market-data { background-color: #333; padding: 15px; border-radius: 8px; margin-top: 15px; font-size: 0.85em; }
+        .market-data ul { list-style-type: none; padding-left: 0; }
+        .market-data li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <!-- Slide 1: Título -->
+	<div class="content-box">
+	    <img src="logo_senac.png" alt="SENAC" style="position: absolute; top: 10px; right: 10px; width: 100px;">
+	</div>            
+            <section>
+                <h1>Introdução a Bancos de Dados</h1>
+                <h3>Oportunidades em um Mundo Orientado por Dados</h3>
+                <p>Aula Introdutória</p>
+                <p class="highlight">José Ribeiro Ramos Junior</p>
+                
+
+            </section>
+
+            <!-- Slide 2: Quem sou eu? -->
+            <section>
+                <h2>Quem sou eu?</h2>
+                <div class="credentials">
+                    <h3>Formação Acadêmica</h3>
+                    <ul>
+                        <li>Bacharel em <strong>Ciências da Computação</strong></li>
+                        <li>Pós-Graduações:
+                            <ul>
+                                <li>Engenharia de Software</li>
+                                <li>Inteligência de Mercado</li>
+                                <li>Ciência de Dados</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="university-logos">
+                        <img src="logo_ufla.png" alt="UFLA - Universidade Federal de Lavras">
+                        <img src="logo_ufrgs.png" alt="UFRGS - Universidade Federal do Rio Grande do Sul">
+                        <img src="logo_impacta.png" alt="Faculdade Impacta">
+                        <img src="logo_unimes.png" alt="Universidade Metropolitana de Santos">                        
+                                               
+                    </div>
+                </div>
+            </section>
+
+       	   <!-- Slide 2: Quem sou eu? -->
+            <section>
+                <h2>Expriência Profissional</h2>
+                <div class="credentials">
+                    <h3>25 anos atuando no mercado de TI</h3>
+                    <ul>
+                        <li><strong>Analista de Sistemas</strong>Grupo VOPAK</li>
+                        <li><strong>Programador</strong>Banco Nossa Caixa / Banco do Brasil</li>
+                        <li><strong>Analista de Performance</strong>Serpro</li>
+                        <li><strong>Analista de Dados</strong>Serpro</li>                        
+                        </li>
+                    </ul>
+                    <div class="university-logos">
+                        <img src="logo_vopak.png" alt="VOPAK">
+                        <img src="logo_bb.png" alt="BANCO DO BRASIL">                        
+                        <img src="logo_serpro.png" alt="SERPRO">
+                                               
+                    </div>
+                </div>
+            </section>   
+            
+            <!-- Slide 3: Objetivos da Aula -->
+            <section>
+                <h2>Objetivos da Aula</h2>
+                <ul>
+                    <li>Banco de Dados e o Mercado de Trabalho</li>
+                    <li>Mas... o que é um banco de dados?</li>
+                    <li>Dado x Informação</li>
+                    <li>Modelando um banco de dados</li>
+                    <li>Dados bem modelados x Dados mal modelados</li>
+                    <li>Dúvidas?</li>
+                    <li>OBRIGADO!</li>
+                </ul>
+            </section>
+
+            <!-- Slide 4: Contextualização do Mercado -->
+            <section>
+                <h2>Banco de Dados e o Mercado de Trabalho</h2>
+                <div class="market-data">
+                    <ul>
+                        <li>Até 2025, o volume global de dados chegará a <span class="highlight">175 zettabytes</span> (Fonte: Statista).</li>
+                        <li>O mercado de bancos de dados movimentará <span class="highlight">US$ 125 bilhões até 2026</span> (Fonte: Gartner).</li>
+                        <li>Muitas oportunidades de trabalho com banco de dados!</li>
+                    </ul>
+                </div>
+                <p>Pergunta: <em>Quais setores vocês imaginam que mais dependem de bancos de dados hoje?</em></p>
+            </section>
+
+            <!-- Slide 5: Oportunidades de Vagas -->
+            <section>
+                <h2>Exemplos de Oportunidades de Vagas</h2>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                    <div>
+                        <p><strong>Administrador de Banco de Dados (DBA)</strong></p>
+                        <p>Faixa Salarial: <span class="highlight">R$ 6k–12k</span></p>
+                    </div>
+                    <div>
+                        <p><strong>Engenheiro de Dados</strong></p>
+                        <p>Faixa Salarial: <span class="highlight">R$ 8k–15k</span></p>
+                    </div>
+                    <div>
+                        <p><strong>Cientista de Dados</strong></p>
+                        <p>Faixa Salarial: <span class="highlight">R$ 10k–18k</span></p>
+                    </div>
+                    <div>
+                        <p><strong>Desenvolvedor Back-End (SQL/NoSQL)</strong></p>
+                        <p>Faixa Salarial: <span class="highlight">R$ 7k–14k</span></p>
+                    </div>
+                    <div>
+                        <p><strong>Analista em órgãos públicos </strong></p>
+                        <p>Faixa Salarial  <span class="highlight">diversa</span></p>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <!-- Slide 6: Mas... o que é um banco de dados? -->
+            <section>
+                <h2>Mas... o que é um banco de dados?</h2>
+                <div class="slide-content">
+                    <p>Quando vocês ouvem Banco de Dados, o que vem à mente?</p>
+                    <ul>
+                        <li>Exemplos: planilhas, sistemas de notas, cadastros, etc.</li>
+                        <li>Quantos bancos de dados vocês conhecem?</li>
+                    </ul>
+                    <p>Banco de dados é uma coleção organizada de dados que:</p>
+                    <ul>
+                        <li>Facilita armazenamento, busca e atualização.</li>
+                        <li>É manipulado por linguagens como <strong>SQL</strong>:</li>
+                        <ul>
+                            <li><code>SELECT</code> para consultar dados.</li>
+                            <li><code>INSERT</code> para adicionar informações.</li>
+                            <li><code>UPDATE</code> para modificar dados existentes.</li>
+                            <li><code>DELETE</code> para remover dados.</li>
+                        </ul>
+                    </ul>
+                    <p><strong>Exemplo SQL:</strong></p>
+                    <pre><code>SELECT nome, idade FROM clientes WHERE idade > 18;</code></pre>
+                </div>
+            </section>
+
+            <!-- Slide 7: Dados x Informação -->
+            <section>
+                <h2>Dado x Informação</h2>
+                <div class="content-box">
+                    <p><strong>O que é um dado?</strong> Um fato <strong>bruto</strong>, sem contexto ou interpretação.</p>
+                    <p><strong>O que é informação?</strong> Um dado <strong>interpretado e contextualizado </strong>para criar significado.</p>
+                    <ul>
+                        <li><strong>Exemplo:</strong> Dado: "25" → Informação: "25 anos" (idade de uma pessoa).</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Slide 8: Modelando um banco de dados -->
+            <section>
+                <h2>Modelando um Banco de Dados</h2>
+                <div class="content-box">
+                    <p><strong>Passos principais:</strong></p>
+                    <ul>
+                        <li>Entidade: Objeto ou conceito do mundo real que você deseja armazenar dados. Pode ser qualquer coisa sobre a qual você precise guardar informações no seu sistema.
+                        <li>Identificar as entidades (e.g., clientes, produtos).</li>
+			<li>Atributo é uma característica ou propriedade de uma entidade.                        
+                        <li>Definir os atributos de cada entidade (e.g., nome, data de nascimento).</li>
+                        <li>Relacionamento define como duas ou mais entidades se conectam dentro do banco de dados. Ele estabelece uma ligação entre os dados de diferentes entidades, permitindo que as informações sejam organizadas e consultadas de forma eficiente.
+                        <li>Estabelecer relacionamentos entre as entidades (e.g., clientes compram produtos).</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Slide 9: Dados bem modelados x Dados mal modelados -->
+            <section>
+                <h2>Dados bem modelados x Dados mal modelados</h2>
+                <div class="content-box">
+                    <p><strong>Dados bem modelados:</strong></p>
+                    <ul>
+                        <li>Facilitam consultas e análises.</li>
+                        <li>Reduzem redundâncias.</li>
+                        <li>Garantem integridade e consistência.</li>
+                    </ul>
+                    <p><strong>Dados mal modelados:</strong></p>
+                    <ul>
+                        <li>Dificultam análises.</li>
+                        <li>Causam inconsistências.</li>
+                        <li>Aumentam o esforço de manutenção.</li>
+                    </ul>
+                </div>
+            </section>
+        <!-- Slide 9: Dados bem modelados x Dados mal modelados -->
+            <section>
+                <h2>Contraste...</h2>
+                <div class="content-box">
+                        <img src="bd.png" alt="Banco de Dados Bem Modelado vs Bando de Dados Mal Modelado">
+                </div>
+            </section>
+
+            <!-- Slide 10: Exemplo de Modelagem de Dados de uma Escola -->
+            <section>
+                <h2>Exemplo de Modelagem de Dados - Escola</h2>
+                <div class="content-box">
+                    <p>Para modelar um banco de dados de uma escola, podemos identificar algumas entidades principais:</p>                    
+                    <h3>Entidade: Aluno</h3>
+                    <ul>
+                        <li><strong>ID_Aluno</strong> (Chave Primária)</li>
+                        <li>Nome</li>
+                        <li>Data de Nascimento</li>
+                        <li>Endereço</li>
+                        <li>Turma</li>
+                    </ul>                    
+                    <h3>Entidade: Professor</h3>
+                    <ul>
+                        <li><strong>ID_Professor</strong> (Chave Primária)</li>
+                        <li>Nome</li>
+                        <li>Especialização</li>
+                        <li>Email</li>
+                        <li>Telefone</li>
+                    </ul>                    
+                </div>
+            </section>
+
+            <!-- Slide 10: Exemplo de Modelagem de Dados de uma Escola -->
+            <section>
+                <h2>Exemplo de Modelagem de Dados - Escola</h2>
+                <div class="content-box">
+                    <h3>Entidade: Aulas</h3>
+                    <ul>
+                        <li><strong>ID_Aula</strong> (Chave Primária)</li>
+                        <li>ID_Professor (Chave Estrangeira - Relaciona com Professor)</li>
+                        <li>ID_Turma (Chave Estrangeira - Relaciona com Turma)</li>
+                        <li>Disciplina</li>
+                        <li>Horário</li>
+                        <li>Sala</li>
+                    </ul>
+			<h3>Entidade: Turma</h3>
+                    <ul>
+                        <li><strong>ID_Turma</strong> (Chave Primária)</li>
+                        <li>Nome</li>
+                    </ul>
+                </div>
+            </section>
+            <!-- Slide 10: Exemplo de Modelagem de Dados de uma Escola -->
+		<section>
+		    <h2>Modelo Entidade Relacionamento</h2>
+		    <div class="content-box">
+			<img src="mer1.png" alt="Modelo Entidade Relacionamento" style="width: 50%; height: auto;">
+		    </div>
+		</section>
+            <!-- Slide 11: Dúvidas? -->
+            <section>
+                <h2>Dúvidas?</h2>
+                <p>Abra espaço para perguntas e discussões.</p>
+                <p>O aprendizado é mais eficiente com interatividade!</p>
+            </section>
+
+	<!-- Slide 12: Obrigado! -->
+	<section>
+	    <h2>Obrigado!</h2>
+	    <p>Contatos</p>
+	    <ul>
+		<li>Email: <a href="mailto:jribeiroramos@gmail.com">jribeiroramos@gmail.com</a></li>                
+	    </ul>
+	</section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.js"></script>
+    <script>
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            center: true,
+            hash: true,
+            transition: 'slide'
+        });
+    </script>
+</body>
+</html>
